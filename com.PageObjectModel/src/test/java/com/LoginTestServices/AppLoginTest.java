@@ -55,6 +55,7 @@ public class AppLoginTest extends BrowserFactory
     public void verifyButton() {
     	login=new LoginService(driver);
     	login.clickLoginButton();
+    	System.out.println("Clicking Login button");
     }
     
     
