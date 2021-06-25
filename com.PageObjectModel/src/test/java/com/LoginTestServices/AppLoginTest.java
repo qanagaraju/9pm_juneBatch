@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 
 import com.Project_Utilities.BrowserFactory;
 import com.Project_Utilities.Property_Loader;
+import com.Project_Utilities.ScreenCapture;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -31,9 +32,11 @@ public class AppLoginTest extends BrowserFactory
    
    public ExtentReports extent;
    public ExtentTest test;
+   public ScreenCapture screen;
 	
 	@BeforeSuite
 	public void setupSuite() {
+		screen=new ScreenCapture();
 		prop=new Property_Loader();
 		extent = new ExtentReports("./TestReports/testoutput.html");
 		test=extent.startTest("page Object Model");
@@ -49,24 +52,26 @@ public class AppLoginTest extends BrowserFactory
 	
     @Test(priority=2)
    
-    public void verifyTest()
+    public void verifyTest() throws Exception
     {
     		login=new LoginService(driver);
     	   	login.insertusername(prop.getusername()).insertpassword(prop.getpassword()).clickLoginButton();
     	   	
-    	test.log(LogStatus.INFO, "verify login account");
-    	
+    	   	test.log(LogStatus.INFO, "verify login account");
+    	   	test.log(LogStatus.INFO, test.addScreenCapture(screen.screencapture(driver,"login window")));
     	
     	
     }
     
     
     @Test(priority=1)
-    public void verifyButton() {
+    public void verifyButton() throws Exception {
     	login=new LoginService(driver);
     	login.clickLoginButton();
     	System.out.println("Clicking Login button");
     	test.log(LogStatus.INFO, "Click Login Button");
+    	test.log(LogStatus.INFO, screen.screencapture(driver, "button"));
+    	
     }
     
     
@@ -80,6 +85,11 @@ public class AppLoginTest extends BrowserFactory
     	}
     }
     
-    
+    @AfterTest
+    public void flustExtents() {
+    	if(null != driver) {
+    		extent.flush();
+    	}
+    }
     
 }
