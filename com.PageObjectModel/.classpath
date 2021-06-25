@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="TestReports"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar" sourcepath="M2_REPO/junit/junit/4.11/junit-4.11-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/cucumber-core-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/cucumber-java-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/cucumber-junit-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/TrainingMaterial/Manual_Notes/Cucumber/junit-4.11.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
