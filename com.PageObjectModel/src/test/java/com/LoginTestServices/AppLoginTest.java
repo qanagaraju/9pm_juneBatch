@@ -64,6 +64,8 @@ public class AppLoginTest extends BrowserFactory
     	if(null != driver) {
     		driver.close();
     		driver.quit();
+    		
+    		System.out.println("Closing Browser");
     	}
     }
     
