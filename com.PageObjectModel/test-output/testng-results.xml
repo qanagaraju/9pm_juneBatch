@@ -2,10 +2,10 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-28T09:04:43 IST" name="Suite" finished-at="2021-06-28T09:04:43 IST" duration-ms="31">
+  <suite started-at="2021-06-28T18:56:14 IST" name="Suite" finished-at="2021-06-28T18:56:14 IST" duration-ms="7">
     <groups>
     </groups>
-    <test started-at="2021-06-28T09:04:43 IST" name="LoginTest" finished-at="2021-06-28T09:04:43 IST" duration-ms="31">
-    </test> <!-- LoginTest -->
+    <test started-at="2021-06-28T18:56:14 IST" name="Cucumber_LoginTest_Case" finished-at="2021-06-28T18:56:14 IST" duration-ms="7">
+    </test> <!-- Cucumber_LoginTest_Case -->
   </suite> <!-- Suite -->
 </testng-results>

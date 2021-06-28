@@ -17,14 +17,6 @@
   
   
   
-   <test  name="POM_LoginTest">
- 
 
-<classes>
-<class name="com.LoginTestServices.AppLoginTest"></class>
-
-</classes>
-  
-  </test> <!-- LoginTest -->
   
 </suite> <!-- Suite -->
