@@ -1,41 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-23T08:17:25 IST" name="Suite" finished-at="2021-06-23T08:17:31 IST" duration-ms="6419">
+  <suite started-at="2021-06-28T09:04:43 IST" name="Suite" finished-at="2021-06-28T09:04:43 IST" duration-ms="31">
     <groups>
     </groups>
-    <test started-at="2021-06-23T08:17:25 IST" name="LoginTest" finished-at="2021-06-23T08:17:31 IST" duration-ms="6419">
-      <class name="com.LoginTestServices.AppLoginTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.LoginTestServices.AppLoginTest@7133da86]" started-at="2021-06-23T08:17:25 IST" name="setupSuite" finished-at="2021-06-23T08:17:25 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.LoginTestServices.AppLoginTest@7133da86]" started-at="2021-06-23T08:17:25 IST" name="launchBrowser" finished-at="2021-06-23T08:17:30 IST" duration-ms="4921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyTest(java.lang.String,java.lang.String)[pri:0, instance:com.LoginTestServices.AppLoginTest@7133da86]" started-at="2021-06-23T08:17:30 IST" name="verifyTest" finished-at="2021-06-23T08:17:31 IST" duration-ms="1261" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qatrainer]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tester]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTest -->
-        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.LoginTestServices.AppLoginTest@7133da86]" started-at="2021-06-23T08:17:31 IST" name="quitbrowser" finished-at="2021-06-23T08:17:31 IST" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitbrowser -->
-      </class> <!-- com.LoginTestServices.AppLoginTest -->
+    <test started-at="2021-06-28T09:04:43 IST" name="LoginTest" finished-at="2021-06-28T09:04:43 IST" duration-ms="31">
     </test> <!-- LoginTest -->
   </suite> <!-- Suite -->
 </testng-results>

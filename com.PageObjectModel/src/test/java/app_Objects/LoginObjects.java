@@ -34,7 +34,14 @@ public class LoginObjects {
 	
 	
 	public void clickButton() {
-		loginbutton.click();
+		if(loginbutton.isEnabled()) {
+			loginbutton.click();
+			System.out.println("Step verified");
+		}
+		else
+		{
+			System.out.println("Step failed");
+		}
 	}
 	
 

@@ -4,7 +4,20 @@
 
 
   
-  <test  name="LoginTest">
+  <test  name="Cucumber_LoginTest_Case">
+ 
+
+<classes>
+<class name="com.LoginTestServices.CucumberLoginTestCase"></class>
+
+</classes>
+  
+  </test> <!-- LoginTest -->
+  
+  
+  
+  
+   <test  name="POM_LoginTest">
  
 
 <classes>
@@ -12,6 +25,6 @@
 
 </classes>
   
-   
   </test> <!-- LoginTest -->
+  
 </suite> <!-- Suite -->
